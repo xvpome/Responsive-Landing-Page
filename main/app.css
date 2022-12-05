@@ -1,0 +1,171 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#div1{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    color: white;
+    border: hsl(215, 32%, 27%) 0px solid;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 3px hsl(216, 50%, 16%) solid ;
+}
+
+img{
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+
+
+}
+
+#div2{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 0px;
+    
+}
+
+p{
+    margin-bottom: 0px;
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+padding-bottom: 15px;
+margin-bottom: 15px;
+}
+
+
+#eth2{
+    width: 10px;
+    height: 18px;
+}
+
+#time2{
+    width: 17px;
+    height: 17px;
+    padding-bottom: 3px;
+   
+}
+
+#ethe{
+    display : flex;
+    padding-right: 20px;
+    color:  hsl(178, 100%, 50%);
+    font-size: 16px;
+
+}
+
+#timee{
+    display: flex;
+    margin-left: 50px;
+    padding-left: 16px;
+    font-size: 16px;
+
+   
+}
+
+#ethe span{
+margin-left: 7px;
+padding-top: 1px;
+
+}
+
+#timee span{
+margin-left: 7px;
+color: hsl(215, 51%, 70%);
+
+}
+
+#avatar{
+    width: 30px;
+    height: 30px;
+    border: white 1px solid;
+    border-radius: 50%;
+    
+
+}
+
+.user{
+    display: flex;
+}
+
+.user span{
+    padding-top: 7px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+#create{
+    color: hsl(215, 51%, 70%);
+    opacity: 0.8;
+}
+
+#whole{
+    height: 300px;
+    width: 300px;
+    background-image: url("images/image-equilibrium.jpg"), url("images/icon-view.svg");;
+    background-size: cover;
+}
+h2{
+    transition: 0.35s;
+}
+h2:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#creator{
+    margin-left: 3px;
+    transition: 0.35s;
+}
+
+#creator:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
